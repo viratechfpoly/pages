@@ -1,0 +1,33 @@
+.animation {
+	transition: transform 0.7s ease-out,opacity 0.4s linear;
+}
+
+.fade-in-left {
+	opacity: 0;
+	transform: translateX(-50px);		
+}
+
+.fade-in-left.show {
+	transform: translateZ(0) !important;
+	opacity: 1;
+}
+
+.fade-on-up {
+	opacity: 0;
+	transform: translateY(50px);	
+}
+
+.fade-on-up.show {
+	transform: translateY(0) !important;
+	opacity: 1;
+}
+
+.fade-in-right {
+	opacity: 0;
+	transform: translateX(50px);		
+}
+
+.fade-in-right.show {
+	transform: translateZ(0) !important;
+	opacity: 1;	
+}
